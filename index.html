@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title>Formulario de registro de autos</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<form action="insertar_auto.php" method="POST">
+		<h2>Registro de autos</h2>
+		<label for="placa">Placa:</label><br>
+		<input type="text" id="placa" name="placa" placeholder = "Ingrese número de placa ABC 123"  required autocomplete="off"><br>
+		<label for="marca">Marca:</label><br>
+		<input type="text" id="marca" name="marca" placeholder = "Marca de automóvil" required autocomplete="off"><br>
+		<label for="modelo">Modelo:</label><br>
+		<input type="number" id="modelo" type="number" name="modelo" placeholder = "Año de fabricación de vehículo" required autocomplete="off"><br>
+		<label for="color">Color:</label><br>
+		<input type="text" id="color" name="color" required placeholder = "Color del vehículo" autocomplete="off"><br>
+		<input type="submit" value="Registrar">
+	</form>
+</body>
+</html>
